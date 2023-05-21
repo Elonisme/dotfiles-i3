@@ -1,10 +1,10 @@
 # dotfiles-i3
 A simple easy i3wm dotfiles
 
-![main](imags/main.png)
-![neofetch](imags/neofetch.png)
-![alacritty-emacs](imags/bash-emacs.png)
-![three mode](imags/three.png)
+![main](imgs/main.png)
+![neofetch](imgs/neofetch.png)
+![alacritty-emacs](imgs/bash-emacs.png)
+![three mode](imgs/three.png)
 
 ## Details
 - OS: Arch Linux
