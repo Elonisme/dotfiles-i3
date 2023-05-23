@@ -1,11 +1,11 @@
 <div align="center">
 
   # 🌸**A simple easy i3wm dotfiles**🌸
-  
-  
-  
+
+
+
   <br/>
-  
+
   ## 📺 Video
 
 https://github.com/Elonisme/dotfiles-i3/assets/87638888/8121b98c-5beb-499d-859b-f636800eebac
@@ -14,8 +14,7 @@ https://github.com/Elonisme/dotfiles-i3/assets/87638888/8121b98c-5beb-499d-859b-
   ![main](imgs/main.png)
   ![neofetch](imgs/neofetch.png)
   ![alacritty-emacs](imgs/bash-emacs.png)
-  ![three mode](imgs/three.png)
- 
+
 
 </div>
 
