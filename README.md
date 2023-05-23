@@ -22,9 +22,19 @@ A simple easy i3wm dotfiles
 
 ### Setup i3 Config
 `git clone https://github.com/Elonisme/dotfiles-i3.git ~`
+
 `cd dotfiles-i3`
-`mv alacritty/ i3/ i3status/ i3lock/ ../.config/`
+
+`mv alacritty/ i3/ ../.config/`
+
+`mv alacritty/ i3status/  ../.config/`
+
+`mv alacritty/ i3lock/ ../.config/`
+
+`mv rofi/ ../.config/`
+
 `mv open_side.sh ~`
+
 `mv wallpic.sh ~/Documents/`
 
 ### description
