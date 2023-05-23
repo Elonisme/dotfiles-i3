@@ -1,44 +1,58 @@
-# dotfiles-i3
-A simple easy i3wm dotfiles
+<div align="center">
 
-![main](imgs/main.png)
-![neofetch](imgs/neofetch.png)
-![alacritty-emacs](imgs/bash-emacs.png)
-![three mode](imgs/three.png)
+  # 🌸**A simple easy i3wm dotfiles**🌸
+  
+  
+  
+  <br/>
+  
+  ## 📺 Video
 
-## Details
-- OS: Arch Linux
-- Compositor: i3wm
-- lock:i3lock-color
-- Terminal: alacritty
-- Wallpaper: archlinux-wallpaper
-- Search menu: rofi
-- Font: Source Code Pro
-- Browser: chromium
+https://github.com/Elonisme/dotfiles-i3/assets/87638888/8121b98c-5beb-499d-859b-f636800eebac
 
-## Usage
-### Required dependencies:
-`sudo pacman -S i3-wm i3status i3blocks alacritty picom fcitx5 rofi xfce4-power-manager feh network-manager-applet i3lock-color archlinux-wallpaper`
+  ## 🎉 Preview
+  ![main](imgs/main.png)
+  ![neofetch](imgs/neofetch.png)
+  ![alacritty-emacs](imgs/bash-emacs.png)
+  ![three mode](imgs/three.png)
+ 
 
-### Setup i3 Config
-`git clone https://github.com/Elonisme/dotfiles-i3.git ~`
+</div>
 
-`cd dotfiles-i3`
+## 🔌 Details
+  - OS: Arch Linux
+  - Compositor: i3wm
+  - lock:i3lock-color
+  - Terminal: alacritty
+  - Wallpaper: archlinux-wallpaper
+  - Search menu: rofi
+  - Font: Source Code Pro
+  - Browser: chromium
 
-`mv alacritty/ i3/ ../.config/`
+  ## 🖌 Usage
+  ### 🔧 Required dependencies:
+  `sudo pacman -S i3-wm i3status i3blocks alacritty picom fcitx5 rofi xfce4-power-manager feh network-manager-applet i3lock-color archlinux-wallpaper`
 
-`mv alacritty/ i3status/  ../.config/`
+  ### 🛠 Setup i3 Config
 
-`mv alacritty/ i3lock/ ../.config/`
+  `git clone https://github.com/Elonisme/dotfiles-i3.git ~`
 
-`mv rofi/ ../.config/`
+  `cd dotfiles-i3`
 
-`mv open_side.sh ~`
+  `mv alacritty/ i3/ ../.config/`
 
-`mv wallpic.sh ~/Documents/`
+  `mv alacritty/ i3status/  ../.config/`
 
-### description
-The open_side.sh is a script to open secondary screen. But everyone’s computer hardware is different. Thus, you could adjust the interface name of the display in the script.
-Please refer to the 'xrandr' command. I recommend you to read [i3wm 用户说明书](https://zjuyk.site/i3wm-userguide-zh/%E4%BB%8B%E7%BB%8D.html). And the wallpic.sh use the package of archlinux-wallpaper. But you could change the wallpaper path.
+  `mv alacritty/ i3lock/ ../.config/`
 
-In addition, you can change the path of the script as you want, but please you mind to change the path in the configuration file.
+  `mv rofi/ ../.config/`
+
+  `mv open_side.sh ~`
+
+  `mv wallpic.sh ~/Documents/`
+
+  ### 📰 description
+  The open_side.sh is a script to open secondary screen. But everyone’s computer hardware is different. Thus, you could adjust the interface name of the display in the script.
+  Please refer to the 'xrandr' command. I recommend you to read [i3wm 用户说明书](https://zjuyk.site/i3wm-userguide-zh/%E4%BB%8B%E7%BB%8D.html). And the wallpic.sh use the package of archlinux-wallpaper. But you could change the wallpaper path.
+
+  In addition, you can change the path of the script as you want, but please you mind to change the path in the configuration file.
