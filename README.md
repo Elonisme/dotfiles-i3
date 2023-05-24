@@ -31,23 +31,19 @@ https://github.com/Elonisme/dotfiles-i3/assets/87638888/8121b98c-5beb-499d-859b-
   ## 🖌 Usage
   ### 🔧 Required dependencies:
   `sudo pacman -S i3-wm i3status i3blocks alacritty picom fcitx5 rofi xfce4-power-manager feh network-manager-applet i3lock-color archlinux-wallpaper`
+  `sudo pacman -S nvidia nvidia-settings lib32-nvidia-utils `
+  `yay -S optimus-manager optimus-manager-qt`
 
   ### 🛠 Setup i3 Config
 
   `git clone https://github.com/Elonisme/dotfiles-i3.git ~`
-
   `cd dotfiles-i3`
-
-  `mv alacritty/ i3/ ../.config/`
-
-  `mv alacritty/ i3status/  ../.config/`
-
-  `mv alacritty/ i3lock/ ../.config/`
-
-  `mv rofi/ ../.config/`
-
+  `mv alacritty/ ~/.config/`
+  `mv i3/ ~/.config/`
+  `mv i3status/  ~/.config/`
+  `mv i3lock/ ~/.config/`
+  `mv rofi/ ~/.config/`
   `mv open_side.sh ~`
-
   `mv wallpic.sh ~/Documents/`
 
   ### 📰 description
