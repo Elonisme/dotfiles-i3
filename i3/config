@@ -194,14 +194,16 @@ bindsym $mod+Mod1+l exec --no-startup-id /home/elon/.config/i3lock/lock.sh
 exec xautolock -detectsleep -time 10 -locker "/home/elon/.config/i3lock/lock.sh"  -notify 30 -notifier "ntify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
 exec --no-startup-id fcitx5
 exec --no-startup-id klipper
+exec --no-startup-id optimus-manager-qt
 exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id spectacle -s
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
 exec --no-startup-id flameshot
+exec --no-startup-id cfw
 bindsym $mod+Shift+s exec flameshot gui
 
 gaps inner 5
 new_window 1pixel
 
-exec --no-startup-id ~/Documents/wallpic.sh
 exec --no-startup-id ~/open_side.sh
+exec --no-startup-id ~/Documents/wallpic.sh
