@@ -1,6 +1,6 @@
 <div align="center">
 
-  # 🌸**A simple easy i3wm dotfiles**🌸
+  # ❁**A simple easy i3wm dotfiles**❁
 
 
 
