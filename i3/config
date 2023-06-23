@@ -200,10 +200,12 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
 exec --no-startup-id flameshot
 exec --no-startup-id cfw
+exec --no-startup-id nutstore
+exec --no-startup-id variety
 bindsym $mod+Shift+s exec flameshot gui
 
 gaps inner 5
 new_window 1pixel
 
 exec --no-startup-id ~/open_side.sh
-exec --no-startup-id ~/Documents/wallpic.sh
+# exec --no-startup-id ~/Documents/wallpic.sh
